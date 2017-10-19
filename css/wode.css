@@ -1,0 +1,197 @@
+
+/* * @Author: Administrator
+* @Date:   2017-10-15 21:18:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 11:52:22
+*/ 
+@import url('base.css');
+a{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-moz-tap-highlight-color: rgba(0,0,0,0);
+	-ms-tap-highlight-color: rgba(0,0,0,0);
+	-o-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+}
+body{
+	background: #e0e0e0;
+}
+/* 头部开始 */
+.headeron{
+	width: 100%;
+	height: 0.5rem;
+	background: #fff;
+}
+header{
+	width: 96%;
+	height: 0.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header1{
+	font-size: 0.18rem;
+	line-height: 0.5rem;
+	color: #868686;
+}
+.header2{
+	font-size: 0.16rem;
+	line-height: 0.5rem;
+	color: #868686;
+}
+.header3{
+	font-size: 0.16rem;
+	line-height: 0.5rem;
+	margin-left: 5%;
+	color: #868686;
+}
+.header-line{
+	width: 100%;
+	height: 0.01rem;
+	background: #e0e0e0;
+}
+/* 头部结束  */
+/* 个人信息开始 */
+.informationon{
+	display: block;
+	width: 100%;
+	height: 0.62rem;
+	background: #fff;
+	margin-top: 0.15rem;
+}
+.information{
+	width: 96%;
+	height: 100%;
+	margin-left: 2%;
+	/* background: yellow; */
+	/* padding-top: 0.07rem; */
+	display: flex;
+	align-items: center;
+}
+.touxiang{
+	width: 0.45rem;
+	height: 0.45rem;
+	/* background: gold; */
+}
+.touxiang img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.nicheng{
+	width: 60%;
+	height: 0.33rem;
+	/* background: gold; */
+	margin-left: 3%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.nicheng1{
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+	color: #000;
+}
+.nicheng2{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #666;
+}
+.erweima{
+	display: block;
+	width: 0.18rem;
+	height: 0.18rem;
+	/* background: gold; */
+	background: url('../img/erweima.png') no-repeat center center;
+	background-size: 0.18rem 0.18rem;
+	float: right;
+	margin-left: 0.5rem;
+}
+/* 个人信息结束 */
+/* 记录开始 */
+.jiluon{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.14rem;
+}
+.jilu{
+	width: 92%;
+	margin-left: 4%; 
+}
+.jilu li{
+	width: 100%;
+	height: 0.4rem;
+	border-bottom: 0.01rem solid #e0e0e0;
+	
+}
+.jilu li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.jilu li:last-child{
+	border: none;
+}
+.jilu li img{
+	display: block;
+	width: 0.18rem;
+	height: 0.18rem;
+}
+.jilu li p{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	margin-left: 0.2rem;
+	color: #000;
+}
+/* 记录结束 */
+/* 订单开始 */
+/* 订单结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.42rem;
+	border-top: 0.01rem solid #e5e5e5;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	z-index: 999;
+	background: #fff;
+}
+footer li{
+	width: 0.36rem;
+	height: 0.32rem;
+	margin-top: 0.06rem;
+	/* background: red; */
+}
+footer li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+footer li a i{
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #666;
+}
+footer li:nth-child(4) a i{
+	color: #ff3366;
+}
+footer li a div{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #666;
+}
+footer li:nth-child(4) a div{
+	color: #ff3366;
+}
+/* 底部结束 */
